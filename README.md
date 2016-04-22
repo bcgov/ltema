@@ -22,11 +22,13 @@ Data collection efficiency will increase with the use of the device’s built-in
 
 ## Installation
 Installed onto Apple iPads, via one of two distribution methods:
+
 1. itms:// protocol, a.k.a. "over the air" deployment
 2. enterprise archive/build, via 'distribute using enterprise deployment' option
 
 ## Project Status
 This app is stable at Release 1.0.0.   Thanks to the original Capstone team of:
+
 * Nick Gulajec
 * Blair White
 * Rory Drysdale
