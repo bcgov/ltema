@@ -1,0 +1,21 @@
+".container" : {
+	backgroundColor:"white"
+},
+
+"Label": {
+	font: {fontSize: 20}
+},
+"Button": {
+	font: {fontSize: 20}
+},
+
+// HeaderView
+"#headerView": {
+	height: 80
+},
+"#addTransect": {
+	bottom: 0,
+	left: 20,
+	height: 60,
+	width: 160
+}

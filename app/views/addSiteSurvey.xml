@@ -1,0 +1,25 @@
+<Alloy>
+	<Window id="addSiteSurveyWin" class="container">
+		<RightNavButton>
+			<Button id="doneAddSite" title="Done" onClick="doneBtn"/>
+		</RightNavButton>
+		
+		<ScrollView id="formView">
+			<Label id="parkLbl" text="Park Name:" />
+			<SearchBar id="parkSrch" />
+			<Label id="parkSrchError" class="error" visible="false" />
+			
+			<Label id="biomeLbl" text="Biome:" />
+			<TabbedBar id="pickBiome" />
+			<Label id="pickBiomeError" class="error" visible="false" />
+			
+			<Label id="protocolLbl" text="Protocol:" />
+			<TabbedBar id="pickProtocol" />
+			<Label id="pickProtocolError" class="error" visible="false" />
+			
+			<View id="footerLine" />
+			
+			<Label id="info"></Label>
+		</ScrollView>
+	</Window>
+</Alloy>

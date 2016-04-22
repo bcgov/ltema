@@ -1,0 +1,56 @@
+".container": {
+	backgroundColor:"white"
+},
+"Label": {
+	font: {fontSize: 20}
+},
+"Button": {
+	font: {fontSize: 20}
+},
+
+"#surveyLbl": {
+	left: 40,
+	top: 40
+},
+"#selectLbl": {
+	left: 180,
+	top: 40,
+	color: "#157DFB"
+},
+"#surveyPkr": {
+	bottom: 0,
+	selectionIndicator: true,
+	visable: false,
+	left: 50,
+	right: 50
+},
+"#doneSurveyPkr": {
+	font: {fontSize: 20},
+	bottom: 210
+},
+"#exportBtn": {
+	top: 100,
+	left: 40,
+	enabled: false
+},
+"#progressBar": {
+	top: 160,
+	width: 500,
+	height: 'auto',
+	style: Titanium.UI.iPhone.ProgressBarStyle.DEFAULT,
+	font: {fontSize: 20}
+},
+"#footerLine": {
+	height: 1,
+	top: 165,  //479
+	left: 5,
+	right: 5,
+	borderWidth: 1,
+	borderColor:'#aaa'
+},
+"#info": {
+	left: 80,
+	right: 80,
+	top: 180,
+	font: {fontSize: 18}
+}

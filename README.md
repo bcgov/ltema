@@ -1,35 +1,26 @@
-# ltema
-## Features
+capstone
+========
 
-## Usage
+Camosun College - Computer Systems Technology <br>
+A Capstone 2014 Project 
 
-## Requirements
+Ministry of Environment, BC Parks <br>
+In collaboration with Sierra Systems Group Inc.
 
-## Installation
+### Long Term Ecological Monitoring Application
 
-## Project Status
+LTEMA streamlines the process of collecting ground cover observations for BC Parks and the LTEM environmental monitoring protocols. Developed using Titanium and targeting the iPad, the application replaces the current pen-and-paper method of recording observations.
 
-## Goals/Roadmap
+#### Key Features
+- validates input on-site and in real-time
+- searches multiple taxonomy levels simultaneously
+- integrates GPS and camera into the site survey process
+- exports data and linked photos in one bundle
+- pre-populates a revisted site with static measurements
 
-## Getting Help or Reporting an Issue
+<br>
 
-## How to Contribute
-
-## License
-
-Here is the boiler-plate you should put into the comments header of every source code file as well as the bottom of your README.md:
-
-    Copyright 2015 Province of British Columbia
-
-    Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at 
-
-       http://www.apache.org/licenses/LICENSE-2.0
-
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.
-   
+##### Project Team:
+Nick Gulajec <br>
+Blair White <br>
+Rory Drysdale <br>

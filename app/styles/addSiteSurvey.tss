@@ -1,0 +1,69 @@
+
+".container": {
+	backgroundColor:"white"
+},
+".error": {
+	font: {fontSize: 18},
+	color: "Red"
+},
+
+"Label": {
+	font: {fontSize: 20}
+},
+
+"#parkLbl": {
+	left: 40,
+	top: 40,
+},
+"#parkSrch": {
+	left: 200,
+	right: 40,
+	top: 30
+},
+"#parkSrchError": {
+	left: 205,
+	top: 75
+},
+
+"#biomeLbl": {
+	left: 40,
+	top: 100
+},
+"#pickBiome": {
+	left: 200,
+	right: 40,
+	top: 100
+},
+"#pickBiomeError": {
+	left: 205,
+	top: 130
+},
+
+"#protocolLbl": {
+	left: 40,
+	top: 160
+},
+"#pickProtocol": {
+	left: 200,
+	right: 40,
+	top: 160
+},
+"#pickProtocolError": {
+	left: 205,
+	top: 190
+},
+
+"#footerLine": {
+	height: 1,
+	top: 220,
+	left: 5,
+	right: 5,
+	borderWidth: 1,
+	borderColor:'#aaa',
+},
+"#info": {
+	left: 80,
+	right: 80,
+	top: 250,
+	font: {fontSize: 18}
+}

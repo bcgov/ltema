@@ -1,0 +1,32 @@
+<Alloy>
+	<NavigationWindow id="modalNav">
+		
+		<Window class="container" title="siteSurveyModal" id="modalWin">
+			<!--
+			<RightNavButton>
+				<Button id="editBtn" title="Edit" onClick="editBtnClick" />
+			</RightNavButton>
+			-->
+			<LeftNavButton>
+				<Button id="backBtn" title="Back" onClick="backBtnClick" />
+			</LeftNavButton>
+			
+			<ScrollView>
+				<Label id="yearLbl" text="Year:" />
+				<Label id="siteYear" />
+				
+				<Label id="biomeLbl" text="Biome:" />
+				<Label id="biome" />
+				
+				<Label id="protocolLbl" text="Protocol:" />
+				<Label id="protocolName" />
+				
+				<Label id="exportLbl" text="Last Export:" />
+				<Label id="exportDate" text="Not Exported"/>
+				
+				<Label id="transectsLbl" text="Transects:">
+			</ScrollView>
+			
+		</Window>
+	</NavigationWindow>
+</Alloy>

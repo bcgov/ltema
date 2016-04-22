@@ -1,0 +1,26 @@
+<Alloy>
+	<NavigationWindow id="modalNav">
+		
+		<Window class="container" id="exportWin">
+			
+			<LeftNavButton>
+				<Button id="backBtn" title="Back" onClick="backBtnClick" />
+			</LeftNavButton>
+			
+			<ProgressBar id="progressBar" />
+			
+			<View id="formView">
+				<Label id="surveyLbl" text="Survey:" />
+				<Label id="selectLbl" text="Select" />
+				<Button id="exportBtn" title="Export" onClick="exportBtn" />
+				<View id="footerLine" />
+				<Label id="info" />
+			</View>	
+			<View id="surveyPkrView" visible="false">
+				<Button id="doneSurveyPkr" title="Done" onClick="doneSelectBtn"/>
+				<Picker id="surveyPkr" />	
+			</View>
+			
+		</Window>
+	</NavigationWindow>
+</Alloy>

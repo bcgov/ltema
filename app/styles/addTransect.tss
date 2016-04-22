@@ -1,0 +1,172 @@
+".container": {
+	backgroundColor:"white"
+},
+".error": {
+	font: {fontSize: 18},
+	color: "Red"
+},
+
+"Label": {
+	font: {fontSize: 20}
+},
+"TextField": {
+	font: {fontSize: 20}
+},
+"Button": {
+	font: {fontSize: 20}
+},
+
+
+"#tsctNameLbl": {
+	left: 40,
+	top: 40
+},
+"#tsctName": {
+	left: 220,
+	right: 40,
+	top: 40,
+	borderStyle: Ti.UI.INPUT_BORDERSTYLE_ROUNDED
+},
+"#transectError": {
+	left: 225,
+	top: 70,
+	color: 'red'
+},
+
+"#srvyNameLbl": {
+	left: 40,
+	top: 100
+},
+"#srvyName": {
+	left: 220,
+	right: 40,
+	top: 100,
+	borderStyle: Ti.UI.INPUT_BORDERSTYLE_ROUNDED
+},
+"#surveyorError": {
+	left: 225,
+	top: 130,
+	color: 'red'
+},
+
+
+"#otherSrvyNameLbl": {
+	left: 40,
+	top: 160
+},
+"#otherSrvyName": {
+	left: 220,
+	right: 40,
+	top: 160,
+	borderStyle: Ti.UI.INPUT_BORDERSTYLE_ROUNDED
+},
+"#otherSurveyorsError": {
+	left: 225,
+	top: 190,
+	color: 'red'
+},
+
+"#stakeLbl": {
+	left: 40,
+	top: 220
+},
+"#pickStake": {
+	left: 220,
+	right: 40,
+	top: 220
+},
+"#stakeError": {
+	left: 225,
+	top: 250,
+	color: 'red'
+},
+
+"#plotLbl": {
+	left: 40,
+	top: 280
+},
+"#plotDist": {
+	left: 220,
+	right: 40,
+	top: 280,
+	borderStyle: Ti.UI.INPUT_BORDERSTYLE_ROUNDED,
+	keyboardType:Titanium.UI.KEYBOARD_NUMBER_PAD
+},
+"#plotDistanceError": {
+	left: 225,
+	top: 310,
+	color: 'red'
+},
+
+"#commentLbl": {
+	left: 40,
+	top: 340
+},
+"#comments": {
+	left: 220,
+	right: 40,
+	top: 340,
+	borderStyle: Ti.UI.INPUT_BORDERSTYLE_ROUNDED
+},
+"#commentsError": {
+	left: 225,
+	top: 370,
+	color: 'red'
+}
+
+"#photoBtn": {
+	left: 40,
+	top: 400
+	//image: 'icons/photo.png',
+	//height: 60,
+	//width: 60
+},
+
+"#transectThumbnail": {
+	width: 64,
+	height: 64,
+	left: 220,
+	top: 400,
+	borderRadius: 10
+},
+"#photoError": {
+	left: 225,
+	top: 405,
+	color: 'red'
+},
+"#thumbnailHintText": {
+	left: 316,
+	top: 416,
+	color: '#8D8D8D'
+},
+"#locationBtn": {
+	left: 40,
+	top: 494
+	//image: 'icons/location2.png',
+	//height: 60,
+	//width: 60
+},
+"#location": {
+	left: 225,
+	top: 499,
+	color: 'black'
+},
+"#locationError": {
+	left: 225,
+	top: 499,
+	color: 'red'
+},
+"#footerLine":{
+	height: 1,
+	top: 599, //584
+	left: 5,
+	right: 5,
+	borderWidth: 1,
+	borderColor:'#aaa'
+},
+"#info": {
+	left: 80,
+	right: 80,
+	top: 614,
+	font: {fontSize: 18}
+}
